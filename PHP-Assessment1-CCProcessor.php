@@ -6,7 +6,7 @@
 ***** version 1.1
 ***** Notes of changes : 
 ***** Need to start session to call session vaiables 
-***** The sessions variables are not called,  missing $ on or around lines 125 / 129  
+***** The sessions variables are not called,  missing $ on or around lines 125 / 129  There are probably a few more items wrong here but this is a first 10 minuet pass on this file first thing in the morning. later today I shoul dhave ample time to review more as needed   
 ***** to verify, test on sandbox or local wamp 
 */
 if (isset($_POST["submit"])) {
