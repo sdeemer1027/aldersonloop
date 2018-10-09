@@ -122,11 +122,11 @@ if (isset($_POST["submit"])) {
 				<tr>
 					<td>
 						<div class="label required">First Name:</div>
-						<input type="text" name="fname" value='<?php echo $_SESSION["firstName"]; ?>' required />
+						<input type="text" name="fname" value='<?php echo _SESSION["firstName"]; ?>' required />
 					</td>
 					<td style="padding-right: 0">
 						<div class="label required">Last Name</div>
-						<input type="text" name="lname" value='<?php echo $_SESSION["lastName"]; ?>' required />
+						<input type="text" name="lname" value='<?php echo _SESSION["lastName"]; ?>' required />
 					</td>
 				</tr>
 			</table>
